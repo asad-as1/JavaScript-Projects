@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(23, 23, 74);
+}
+
+.container {
+    min-height: 600px;
+    max-width: 400px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    gap: 13px;
+}
+
+.head {
+    max-width: 281px;
+}
+h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.h02 {
+    color: rgb(3, 251, 3);
+    font-size: 35px;
+    border-bottom: 4px solid rgb(3, 251, 3);
+}
+
+.inp {
+    background-color: #fff;
+    width: 400px;
+    border-radius: 3px;
+    margin: 10px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.in{
+    margin-top: 13px;
+    padding: 8px;
+    font-size: 15px;
+    width: 250px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+
+.in2 {
+    width: 340px;
+    font-size: 20px;
+    color: gray;
+    outline: none;
+    border: none;
+}
+
+.bi-copy {
+    color:  rgb(14, 180, 14);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn {
+    width: 220px;
+    background-color: rgb(14, 180, 14);
+    padding: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: large;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.bi-lightning-charge {
+    font-size: large;
+    color: white;
+}
