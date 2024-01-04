@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+#start, #stop{
+    width: 70px;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 7px;
+}
+#start, #stop:hover{
+    cursor: pointer;
+}

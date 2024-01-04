@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.crsr {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+
+    /* showing diffence between other and its text */
+    mix-blend-mode: difference;
+}
+h1 {
+    font-size: 9vw;
+    font-weight: 900;
+}

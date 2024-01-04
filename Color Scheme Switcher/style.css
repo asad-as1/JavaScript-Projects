@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 10px;
+    align-items: center;
+}
+.box{
+    height: 100px;
+    width: 450px;
+    gap: 10px;
+    display: flex;
+}
+#box1{
+    height: 100%;
+    width: 150px;
+    border: 2px solid #000;
+}
+.first{
+    background-color: grey;
+}
+.second{
+    background-color: #efac78;
+}.third{
+    background-color: lightpink;
+}.fourth{
+    background-color: lightblue;
+}
+
