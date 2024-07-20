@@ -88,5 +88,9 @@
 
 .over {
   margin-top: 20px;
+  color: white;
+  background: rgba(43, 101, 43, 0.921);
+  padding: 15px;
+  border-radius: 10px;
   cursor: pointer;
 }
