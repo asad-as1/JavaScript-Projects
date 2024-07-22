@@ -142,3 +142,14 @@ body {
         height: 100px;
     }
 }
+
+@media (max-height: 450px) {
+    .main-h1 {
+        height: 0px;
+        margin-top: 20px;
+    }
+
+    .card {
+        width: 500px;
+    }
+}
